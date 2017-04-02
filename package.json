@@ -1,0 +1,44 @@
+{
+  "name": "es6-getting-started",
+  "version": "1.0.0",
+  "description": "Getting started with ES6, little into to react",
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pradeep1991singh/ES6-getting-started.git"
+  },
+  "keywords": [
+    "ES6",
+    "Classes",
+    "Variable",
+    "Methods",
+    "String-manupulation"
+  ],
+  "author": "pradeep singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pradeep1991singh/ES6-getting-started/issues"
+  },
+  "homepage": "https://github.com/pradeep1991singh/ES6-getting-started#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "webpack": "^2.3.2",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
